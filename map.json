@@ -1,0 +1,47 @@
+[
+   {"name": "Green room", "desc": "You are in a simple room with green walls. Some of the Exits are locked",
+    "exits": { "north": 3, "northeast": 2, "east": 1, "west": 4 },
+    "locked": { "north" : "sword" },
+      "items" : ["watch"]
+    
+   }
+  ,
+    {"name": "White room", "desc": "You are in a simple room with white walls. Some of the Exits are locked",
+    "exits": { "north": 2, "west": 0 },
+     "locked" : { "north" : "watch" }
+  
+  
+  
+    
+   }
+    ,
+  
+  {"name": "Yellow room", "desc": "You are in a simple room with pitch yellow walls. Some of the Exits are locked",
+    "exits": { "south": 1, "west": 3, "southwest": 0 },
+     "locked" : { "west" : "boxes" },
+     "items" : ["bracelet", "pendant"]
+  
+  
+  
+  
+    
+   }
+  ,
+   {"name": "Blue room", "desc": "You are in a room with blue walls. It looks like a Treasure Room.All of the Exits are locked",
+    "exits": { "south": 4, "east": 2, "southeast": 0 },
+     "locked" : { "east" : "boxes","southeast": "bracelet" ,"south": "pendant" },
+     "items" : ["Treasure Chest"]
+  
+  
+  
+  
+    
+   }
+  ,
+   {"name": "A red room", "desc": "You are in a fancy room, with bright red walls.Some of Exits are locked",
+    "exits": { "north": 3, "east": 0 },
+    "items": ["boxes"],
+    "locked" : {"north": "pendant" }
+  
+   }
+  ]
